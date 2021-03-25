@@ -11,8 +11,8 @@ body{
 /*Requirement 2*/
 header{
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  flex-flow: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #fff;
@@ -26,7 +26,6 @@ header{
 
 /*Requirement 3*/
 .nav_links{
-  display: flex;
   text-align: center;
   align-self: center;
   flex-direction: column;
@@ -51,7 +50,7 @@ header{
 /*Requirement 5*/
 .package {
   margin: 12px;
-  background-color: #fff;
+  background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;
   /*Your code here.*/
